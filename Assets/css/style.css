@@ -1,0 +1,28 @@
+body {
+	background: url(../images/background.jpeg);
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.randomNumberDiv {
+	background-color: #d1256d;
+	height: 100px;
+}
+
+.winsLossesDiv {
+	background-color: #f4d641;
+	height: 70px;
+}
+
+
+.scoreDiv {
+	background-color: #f78f60;
+	height: 40px;
+
+}
+
+#userScore{
+	height: 140px;
+}
