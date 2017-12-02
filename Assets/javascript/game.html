@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="javascript.js"></script>
+
+<script type='text/javascript' src="javascript.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
 	<title>Week 4 - Crystals Collector</title>
 
     <meta charset="utf-8">
@@ -10,16 +18,6 @@
     <meta name="description" content="Crystals Collector">
     <meta name="author" content="Ali Zaidi">
 
-	<!-- add link to the jQuery Library -->
-  	<script src="assets/javascript/jquery-3.1.1.min.js"></script>
-	
-	<!-- set up style sheets -->
-	<!-- reset not needed because using bootstrap -->
-	<!-- <link rel="stylesheet" type="text/css" href="/assets/css/reset.css"> -->
-	<!-- Link in locally stored min version of bootstrap.css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<!-- Make final css adjustments with personal stylesheet -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
@@ -41,15 +39,15 @@
 		<!-- random number div and wins/losses div -->
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 randomNumberDiv">
-				<h2 id="randomNumber">random#</h2>
+				<h2 id="randomNumber">Random Number</h2>
 			</div>
 			<div class="col-md-3 col-md-offset-1 winsLossesDiv">
 				<p id="winsTally">Wins: </p>
-				<p id="lossesTally">losses: </p>
+				<p id="lossesTally">Losses: </p>
 			</div>
 		</div>
 
-		<!-- gems -->
+		<!-- gems row -->
 		<div class="row">
 			<div class="col-md-1 col-md-offset-1 gem" value="gem1">
 				<img src="../images/Quartz_crystal.png" class="img-responsive" alt="Gem1">
@@ -75,7 +73,7 @@
 		<!-- user score div -->
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 scoreDiv">
-				<h2 id="userScore">score</h2>
+				<h2 id="userScore">Score</h2>
 			</div>
 		</div>
 	
